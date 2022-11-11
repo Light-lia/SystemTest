@@ -1,0 +1,90 @@
+/* color of the background and size of h1 size and padding */ 
+
+
+  
+
+
+/* Chapter Title/Book for longer works */
+
+.chapter_title{
+
+  text-align: center;
+  font-size: 100px;
+  font-family: fantasy;
+  margin: 20px;
+  text-shadow: 1px 1px 1px rgb(70, 93, 172), 2px 2px 1px rgb(0, 18, 78);
+
+}
+
+@media screen and (max-width: 800px) {
+  .chapter_title {
+    font-size: 60px;
+  }
+}
+
+/* Chapter N font size size  */
+.chapters{
+
+  text-align: center;
+  font-size: 50px;
+  margin: 10px;
+  text-shadow: 1px 1px 1px rgb(63, 6, 9);
+
+}
+
+@media screen and (max-width: 800px) {
+  .chapters {
+    font-size: 30px;
+  }
+}
+
+/* creates padding for exposition */
+
+.words {
+  border-radius: 25px;
+  border: 2px solid #000000;
+  margin: 10px;
+  padding: 20px;
+  background: #dfe4d8;
+  font-size: 18px; 
+
+}
+
+
+/*change letters with size */
+.letters {
+  font-size: 16px;
+}
+
+@media screen and (max-width: 600px) {
+  .words {
+    font-size: 20px;
+  }
+}
+/* bottom part of divide element  */
+
+
+
+
+/*formats the next home and previous at bottom */
+
+.next {
+
+  text-align: center;
+  
+  }
+
+
+
+/* centers the chapter image */
+.chapter_image {
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  padding: 10px;
+  }
+
+
+
